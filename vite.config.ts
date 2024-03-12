@@ -5,7 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/react-todo-list/',
   plugins: [react()],
-  build:{
-    outDir: "build"
-  }
 })
